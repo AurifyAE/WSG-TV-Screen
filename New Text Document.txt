@@ -1,0 +1,4 @@
+VITE_APP_URL = https://api.aurify.ae/device
+VITE_APP_API_KEY = IfiuH/ko+rh/gekRvY4Va0s+aGYuGJEAOkbJbChhcqo=
+VITE_APP_ADMIN_ID = 672a13ec1d8961cd954599f8
+VITE_APP_SOCKET_SECRET_KEY = aurify@123
