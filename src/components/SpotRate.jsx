@@ -3,6 +3,7 @@ import { Box, Typography } from "@mui/material";
 import { useSpotRate } from "../context/SpotRateContext";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
+import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 
 const SpotRate = () => {
   const { goldData, silverData } = useSpotRate();
@@ -200,16 +201,16 @@ const SpotRate = () => {
             className="flex justify-center items-center"
             sx={{
               marginLeft: "0.5vw",
-              backgroundColor: "black",
+              backgroundColor: "white",
               width: "30px",
               height: "30px",
               borderRadius: "50%",
-              fontSize: "1.4vw",
-              fontWeight: "600",
-              color: "white",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
             }}
           >
-            <i class="fa-solid fa-dollar-sign"></i>
+            <AttachMoneyIcon sx={{ color: "red", fontSize: "1.4vw" }} />
           </Box>
         </Box>
 
@@ -228,16 +229,16 @@ const SpotRate = () => {
             className="flex justify-center items-center"
             sx={{
               marginLeft: "0.5vw",
-              backgroundColor: "black",
+              backgroundColor: "white",
               width: "30px",
               height: "30px",
               borderRadius: "50%",
-              fontSize: "1.4vw",
-              fontWeight: "600",
-              color: "white",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
             }}
           >
-            <i class="fa-solid fa-dollar-sign"></i>
+            <AttachMoneyIcon sx={{ color: "green", fontSize: "1.4vw" }} />
           </Box>
         </Box>
       </Box>
